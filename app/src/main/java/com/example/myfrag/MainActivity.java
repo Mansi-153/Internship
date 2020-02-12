@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 
@@ -22,6 +23,11 @@ public class MainActivity extends AppCompatActivity {
         button2=findViewById(R.id.button2);
         button3=findViewById(R.id.button3);
         button5=findViewById(R.id.button5);
+        ActionBar ab = getSupportActionBar();
+        ab.setLogo(R.mipmap.pump_round);
+        ab.setTitle("Welcome");
+        ab.setDisplayShowHomeEnabled(true);
+        ab.setDisplayUseLogoEnabled(true);
     }
     public void btn(View view){
         Fragment frag;
