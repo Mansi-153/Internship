@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.myfrag.BlankFragmentTwo">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#BABBD7EE">
+
+        <!-- TODO: Update blank fragment layout -->
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="144dp"
+            android:layout_height="139dp"
+            android:layout_marginStart="32dp"
+            android:background="#CE809A"
+            android:text="Go TO FIRST FRAGMENT "
+            android:textColor="#FAF7F7"
+            android:textSize="26sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.243" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="144dp"
+            android:layout_height="139dp"
+            android:layout_marginStart="192dp"
+            android:background="#D886A2"
+            android:text="Go TO THIRD FRAGMENT "
+            android:textColor="#FAF7F7"
+            android:textSize="26sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.243" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
